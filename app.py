@@ -1,4 +1,4 @@
-import os
+ittuimport os
 import streamlit as st
 import fitz  # PyMuPDF
 from dotenv import load_dotenv
@@ -8,7 +8,7 @@ from utils.job_matcher import match_job_with_resume
 
 # Load API key
 load_dotenv()
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = os.getenv("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")
 
 # Streamlit config
 st.set_page_config(page_title="🤖 AI Job Application Agent", layout="wide")
